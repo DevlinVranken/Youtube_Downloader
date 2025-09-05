@@ -5,6 +5,10 @@
 ## Purpose of the project
 Personally, I like to download youtube music and put in on an USB stick to use in my car. I used to do this on those youtube converver websites you can find. However, I got tired of finding the one I trusted the most and just decided to make a project that would not only make me trust the downloading more, but also make the experience overall a lot better. Instead of having to put in an url, convert it, download it, and all that, this project gives you the ability to just put all url's in a txt file and download them all without any effort. However, the titles will have a weird tag at the ending and ofcourse metadata is not filled in.
 
+## Requirements to run
+* In order for this to run, you will need to install yt-dlp: https://github.com/yt-dlp/yt-dlp/wiki/Installation
+* Have python installed on your pc
+
 ## Usage
 ### Method 1
 1. In terminal, type "python .\Music_Downloader.py -t result_folder" **(no -f passed)**
