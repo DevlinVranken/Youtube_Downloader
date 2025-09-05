@@ -1,4 +1,3 @@
-import sys
 import argparse
 import subprocess
 from pathlib import Path
@@ -15,7 +14,6 @@ def download(links, path):
 
 def main():
     links = []
-    from_file = False
 
     # Create an ArgumentParser object
     parser = argparse.ArgumentParser(description="Download YouTube videos with custom options.")
